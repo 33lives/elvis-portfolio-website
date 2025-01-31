@@ -1,0 +1,153 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+}
+
+header{
+    /* border:5px solid rgb(251, 255, 0) ; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile{
+    /* border:3px solid rgb(255, 0, 0) ; */
+    width: 250px;
+    height: 270px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+img{
+    height: 270px;
+    width: 250px;
+}
+
+
+.head {
+   /* border: 5px red solid; */
+   
+   width: 1000px;
+   height: fit-content;
+    /* margin-left: 0%; */
+    /* background: #ff0000; */
+    color: #fff;
+    /* margin-top: 50px; */
+    font-size: larger;
+    
+    text-align: center;
+    font-style: italic;
+}
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    font-family: sans-serif;
+    
+}
+
+nav ul li {
+    
+    margin: 0 15px;
+}
+
+nav ul li a {
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li  :hover{
+    color: #ff0000;
+}
+
+
+.viewwork{
+   border: 3px rgb(0, 0, 0) solid;
+   height: fit-content;
+   width: 500px;
+   margin-top: 25px;
+   font-size: medium;
+   margin-left: 1070px;
+   display: flex;
+   flex-direction: row;
+}
+
+.viewwork a{
+
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h1{
+    color: red;
+    font-size: xx-large;
+    text-decoration: underline;
+    line-height: 1.6;
+}
+
+
+section {
+    /* border: 2px solid red; */
+    width: fit-content;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 20px 0;
+    max-width: 1000px;
+    padding-bottom: 50px;
+}
+
+/* #about{
+    padding-bottom: 50px;
+} */
+
+.contact-section{
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    margin-top: 120px;
+/* margin-right: 290px; */
+
+}
+
+h2{
+    font-size: xx-large;
+    text-decoration: underline
+    
+};
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    
+    height: 18px;
+    width: 900px;
+    margin-bottom: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #ff0000;
+}
